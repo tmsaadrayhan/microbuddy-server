@@ -9,8 +9,6 @@ const port = 5000;
 app.use(cors());
 app.use(bodyParser.json());
 
-//password = "eyvp dcxh bfja wezh";
-
 require("dotenv").config();
 console.log(process.env.AUTH_PASS);
 
